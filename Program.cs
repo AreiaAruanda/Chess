@@ -1,17 +1,23 @@
 ﻿using System;
-//Add error handling (decimals, negatives,too large numbers)
-//Add cases 0 and 1
+
 List<ulong> riceAmount = new List<ulong> { 1 };
 
 Console.WriteLine("How much rice do you want?");
 ulong targetAmount = ulong.Parse(Console.ReadLine());
 
-for (int i = 0; i < 64; i++)
+if(targetAmount > 0 && targetAmount < (Math.Pow(2,64))*2-1)
+{
+    Console.WriteLine($"The desired amount can be found on the {(Math.Ceiling(Math.Log(targetAmount, 2))+1)}th square.");
+}
+else
+{
+    Console.WriteLine("This amount cannot be found on the chessboard.");
+}
+/*for (int i = 0; i < 64; i++)
 {   
     ulong newElement = riceAmount[i] * 2;
     riceAmount.Add(newElement);
-    //Console.Write(i+2 + "  ");
-    //Console.WriteLine(newElement);
+    
     if (newElement >= targetAmount)
     {
         Console.Write(i + 2 + "  ");
@@ -24,8 +30,7 @@ for (int i = 0; i < 64; i++)
     {
         //Console.WriteLine(newElement);
         continue;
-    }
-}
+    }*/
 
 
 

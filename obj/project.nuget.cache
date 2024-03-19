@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zjahMEDKDGZQeXxWXp9l2gVh6OlzsjQC8nbampKFbC3TElQU6BPPYWBjSlGclmVi11mVyBxMupmEqhFCfgtfGw==",
+  "dgSpecHash": "bMQA4eTvVGI1JUUdX9KwvnEku7kBVo7JV59DLQFsLrBhnQePscj2dliKpzaEazEMyMEwnpM/K42NHFGh1pjoGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lipsk\\source\\repos\\Chessboard\\Chessboard.csproj",
+  "projectFilePath": "C:\\Users\\lipsk\\source\\repos\\Chess\\Chessboard.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
